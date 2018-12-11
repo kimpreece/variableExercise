@@ -7,28 +7,31 @@
 // likesTravle should hold a boolean representing whether or not you like to travel
 // Log each variable to the console.
 
-var firstName = "Kim";
-var lastName = "Preece";
-var age = 39; // not really
-var likesTravel = true;
 
-console.log(firstName);
+var firstName = "kim";
+var lastName = "preece";
+var age = 39; // winky
+var likesTravle = true;
+console.log(firstName + " " + lastName);
 console.log(lastName);
-console.log(age);
-console.log(likesTravel);
+
+
+
+
 
 
 // 2. Favorite Movies
 // In your JavaScript file, instantiate and assign a variable called movieArray. This variable should hold an array of your favorite movie titles. (Don't go overboard- two or three is fine).
 // Log each movie in the array to the console.
 
-var movieArray = ["Elf", "Christmas Vacation", "Charlie Brown Christmas"];
-var movie2 = movieArray[1];
 
-console.log(movieArray[0]);
-console.log(movie2);
-console.log(movieArray[1]);
-console.log(movieArray[2]);
+var movieArray = ["They Live", "Hot Rod", "Mad Max"];
+
+console.log(movieArray);
+
+
+
+
 
 // 3. Student Grades
 // In your JavaScript file, copy and paste the following array:
@@ -62,18 +65,17 @@ var hughObject = {
     lastName: "Jackman",
     age: 50,
     favoriteFood: "steak",
-    hobbies: ["singing", "dancing", "saving the world from bad guys" ]
+    hobbies: ["singing", "dancing", "saving us from bad people"]
 }
 
+console.log(hughObject.favoriteFood);
 console.log(`${hughObject.firstName} ${hughObject.lastName}`);
-console.log(`What does ${hughObject.age} year old ${hughObject.firstName} eat?  ${hughObject.favoriteFood}!!`);
-console.log(hughObject.hobbies[0]);
-console.log(hughObject.hobbies[1]);
-console.log(hughObject.hobbies[2]);
-console.log(`${hughObject.firstName} has ${hughObject.hobbies.length} hobbies including: ${hughObject.hobbies[0]}, ${hughObject.hobbies[1]}, ${hughObject.hobbies[2]}.`)
+console.log(`${hughObject.firstName} is wolverine!! `)
+console.log(`${hughObject.firstName} has ${hughObject.hobbies.length} hobbies including ${hughObject.hobbies[0]}, ${hughObject.hobbies[1]}, and ${hughObject.hobbies[2]}.`);
 
 
-// Challenge Refactor your movie star object to add their hobbies. Now your object should look something like this:
+// Challenge
+// Refactor your movie star object to add their hobbies. Now your object should look something like this:
 
 // var dwayneObject = {
 //   firstName: "Dwayne",
